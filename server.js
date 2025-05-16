@@ -21,7 +21,7 @@ app.use(express.json());
 
 // CORS middleware FIRST (before routes)
 const corsOptions = {
-  origin: ['https://blue-flower-0e3054f00.6.azurestaticapps.net'],
+  origin: ['https://blue-flower-0e3054f00.6.azurestaticapps.net','http://localhost:3000'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
   allowedHeaders: ['Content-Type', 'Authorization']
