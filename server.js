@@ -17,7 +17,7 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: [], // Add your frontend URL
+  origin: ['https://blue-flower-0e3054f00.6.azurestaticapps.net'], // Add your frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
   allowedHeaders: ['Content-Type', 'Authorization']
